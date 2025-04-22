@@ -62,9 +62,12 @@ export default function RootLayout({ children }) {
 
             <div className="socials">
               <p>© <a href="https://ismailabdumajidov.netlify.app/" target="_blank">Ismail.A</a> 2025 <br /> Built with NextJS</p>
-              <Link href={''} target="_blank"><i className="fa-brands fa-linkedin"></i></Link>
-              <Link href={''} target="_blank"><i className="fa-brands fa-telegram"></i></Link>
-              <Link href={''} target="_blank"><i className="fa-brands fa-github"></i></Link>
+              <div className="social-links">
+                <Link href={''} target="_blank"><i className="fa-brands fa-linkedin"></i></Link>
+                <Link href={''} target="_blank"><i className="fa-brands fa-telegram"></i></Link>
+                <Link href={''} target="_blank"><i className="fa-brands fa-github"></i></Link>
+              </div>
+              
             </div>
           </footer>
         </div>
